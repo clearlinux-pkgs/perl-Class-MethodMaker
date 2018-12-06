@@ -4,7 +4,7 @@
 #
 Name     : perl-Class-MethodMaker
 Version  : 2.24
-Release  : 6
+Release  : 7
 URL      : https://cpan.metacpan.org/authors/id/S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.24.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.24.tar.gz
 Summary  : 'a module for creating generic methods'
