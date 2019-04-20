@@ -4,10 +4,10 @@
 #
 Name     : perl-Class-MethodMaker
 Version  : 2.24
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.24.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.24.tar.gz
-Summary  : 'a module for creating generic methods'
+Summary  : Create generic class methods
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 Requires: perl-Class-MethodMaker-lib = %{version}-%{release}
@@ -24,6 +24,7 @@ Summary: dev components for the perl-Class-MethodMaker package.
 Group: Development
 Requires: perl-Class-MethodMaker-lib = %{version}-%{release}
 Provides: perl-Class-MethodMaker-devel = %{version}-%{release}
+Requires: perl-Class-MethodMaker = %{version}-%{release}
 
 %description dev
 dev components for the perl-Class-MethodMaker package.
